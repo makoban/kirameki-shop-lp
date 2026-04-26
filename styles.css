@@ -157,11 +157,18 @@ h3 {
   font-size: clamp(16px, 2vw, 20px);
 }
 
+.price-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-top: 28px;
+}
+
 .price-badge {
   display: inline-flex;
   align-items: baseline;
   gap: 10px;
-  margin-top: 28px;
+  margin-top: 0;
   padding: 12px 18px;
   border: 2px solid var(--ink);
   border-radius: 8px;
@@ -177,6 +184,10 @@ h3 {
 .price-badge strong {
   font-size: clamp(34px, 5vw, 58px);
   line-height: 1;
+}
+
+.price-badge.charm {
+  box-shadow: 8px 8px 0 #bde5e0;
 }
 
 .hero-actions {
@@ -246,6 +257,7 @@ h3 {
 
 .section {
   padding: clamp(52px, 8vw, 96px) clamp(18px, 5vw, 72px);
+  scroll-margin-top: 78px;
 }
 
 .intro {
@@ -291,6 +303,14 @@ h3 {
   width: 100%;
   aspect-ratio: 4 / 5;
   object-fit: cover;
+}
+
+.charm-lineup {
+  background: #eef7f4;
+}
+
+.charm-card img {
+  aspect-ratio: 1 / 1;
 }
 
 .product-card div {
@@ -502,8 +522,12 @@ h3 {
 }
 
 @media (max-width: 460px) {
+  .price-list,
   .price-badge {
     width: 100%;
+  }
+
+  .price-badge {
     justify-content: center;
   }
 
