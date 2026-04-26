@@ -106,7 +106,7 @@ nav a {
 }
 
 .hero-logo {
-  width: min(420px, 88vw);
+  width: min(300px, 62vw);
   height: auto;
   margin: 0 0 18px;
   filter: drop-shadow(0 12px 22px rgba(216, 95, 106, 0.28));
@@ -419,7 +419,7 @@ h3 {
 }
 
 .site-footer img {
-  width: 120px;
+  width: 84px;
   height: auto;
   filter: drop-shadow(0 0 12px rgba(245, 207, 93, 0.26));
 }
