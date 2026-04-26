@@ -105,6 +105,13 @@ nav a {
   max-width: 720px;
 }
 
+.hero-logo {
+  width: min(420px, 88vw);
+  height: auto;
+  margin: 0 0 18px;
+  filter: drop-shadow(0 12px 22px rgba(216, 95, 106, 0.28));
+}
+
 .eyebrow {
   margin: 0 0 10px;
   color: var(--coral);
@@ -403,11 +410,18 @@ h3 {
 
 .site-footer {
   display: flex;
+  align-items: center;
   justify-content: space-between;
   gap: 20px;
   padding: 24px clamp(18px, 5vw, 72px);
   background: var(--ink);
   color: var(--white);
+}
+
+.site-footer img {
+  width: 120px;
+  height: auto;
+  filter: drop-shadow(0 0 12px rgba(245, 207, 93, 0.26));
 }
 
 .site-footer a {
