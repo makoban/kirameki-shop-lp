@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: http://kirameki-shop.sunlight-net.co.jp/sitemap.xml
